@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--Kayla Mathis November 1, 2023-->
+<title>Greeting Card</title>
+<meta charset="utf-8">
+
+<script>
+function switcharoo(){
+    document.getElementById('julia').src="infrontoftcoop.jpg";
+}
+function originalimg(){
+    document.getElementById('julia').src="willyB.jpg";
+
+}
+</script>
+
+
+<style>
+.A{
+    position:absolute;
+    top:0px;
+    left:400px;
+    width:700px;
+    font-size:35pt;
+    text-align:center;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+}
+h1{
+    background-color:darkred;
+    border-style:solid;
+    border-color:forestgreen;
+    border-width:thick;
+}
+.B{
+    position:absolute;
+    top:150px;
+    left:405px;
+}
+img{
+    height:500px;
+    width:700px;
+}
+.gavin{
+    position:absolute;
+    top:150px;
+    left:100px;
+    width:250px;
+    padding:2px;
+    text-align:justify;
+    font-size:25pt;
+    color:darkred;
+    border-style:double;
+    border-color:forestgreen;
+    border-width:thick;
+}
+.matthew{
+    position:absolute;
+    top:150px;
+    left:1150px;
+    width:250px;
+    padding:2px;
+    text-align:justify;
+    font-size:30pt;
+    color:forestgreen;
+    border-style:double;
+    border-color:darkred;
+    border-width:thick;
+}
+</style>
+
+
+
+</head>
+<body>
+
+
+<h1 class="A">Seasons Greetings from USC!</h1>
+
+<img id="julia" class="B" src="willyB.jpg" alt="Willy B sunset" onmouseover="switcharoo()" onmouseout="originalimg()">
+
+<p class="gavin">We hope you take the much needed breaks you get and enjoy the holidays! Enjoy the time you get to celebrate with friends and family!</p>
+
+<p class="matthew">Happy Thanksgiving, Merry Christmas, and Happy New Year! Welcome 2024!</p>
+</body>
+</html>
